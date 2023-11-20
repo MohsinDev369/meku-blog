@@ -10,7 +10,7 @@ const buttonVariants = cva(
     variants: {
       variant: {
         default:
-          "bg-brandColour font-extrabold tracking-[-0.14em] lg:text-5xl border-2 border-black shadow-btn",
+          "bg-brandColour font-extrabold tracking-[-0.14em] border-2 border-black shadow-btn",
         destructive:
           "bg-destructive text-destructive-foreground hover:bg-destructive/90",
         outline:
