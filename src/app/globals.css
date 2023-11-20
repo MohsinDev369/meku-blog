@@ -4,8 +4,10 @@
  
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: 60, 100%, 98%;
     --foreground: 222.2 84% 4.9%;
+    
+    --brand-col: #dbfd00 ;
 
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
@@ -70,6 +72,13 @@
   * {
     @apply border-border;
   }
+  .shadow-btn {
+  box-shadow: 4px 4px 0px 0px #000;
+  /* box-shadow: 3px 4px 0px 1px #000; */
+}
+  .shadow-small {
+  box-shadow: 2px 2px 0px 0px #000;
+}
   body {
     @apply bg-background text-foreground;
   }
