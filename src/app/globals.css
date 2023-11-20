@@ -77,13 +77,13 @@
     @apply scroll-m-20 text-4xl font-extrabold tracking-[-0.14em] lg:text-5xl
   }
   h2 {
-    @apply scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0
+    @apply scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-[-0.14em] first:mt-0
   }
   h3 {
-    @apply scroll-m-20 text-2xl font-semibold tracking-tight
+    @apply scroll-m-20 text-2xl font-semibold tracking-[-0.14em]
   }
   h4 {
-    @apply scroll-m-20 text-xl font-semibold tracking-tight
+    @apply scroll-m-20 text-xl font-semibold tracking-[-0.14em]
   }
   p {
     @apply leading-7 [&:not(:first-child)]:mt-6
