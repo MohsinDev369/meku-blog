@@ -14,3 +14,5 @@ pnpm dev
 # or
 bun dev
 ```
+## Insoiration Reference
+    https://preview.themeforest.net/item/zosia-personal-wordpress-blog-theme/full_screen_preview/40064400
