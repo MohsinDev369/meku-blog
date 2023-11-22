@@ -1,19 +1,21 @@
+import { Button } from "./ui/button";
+
 export default function Header() {
   return (
-    <header className=" border-2 border-black">
+    <header className="border-b-2 border-black shadow-small bg-white">
       <div
         id="header-wraper"
-        className="flex justify-between items-center container    "
+        className="flex justify-between items-center container h-16"
       >
+        <h3>LOGO</h3>
         <nav>
-          <ul className="flex">
+          <ul className="flex list-none">
             <li>Home</li>
-            <li>About</li>
-            <li>Contact</li>
           </ul>
         </nav>
-        <h3>LOGO</h3>
-        <div>Button</div>
+        <Button size={"sm"}>
+          Subscribe
+        </Button>
       </div>
     </header>
   );
