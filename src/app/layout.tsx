@@ -21,11 +21,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${LexendMega.className} antialiased `}>
+      <body className={`${LexendMega.className} antialiased container`}>
         <Header />
-        <div id="container-wraper" className="container">
-          {children}
-        </div>
+        {children}
       </body>
     </html>
   );
